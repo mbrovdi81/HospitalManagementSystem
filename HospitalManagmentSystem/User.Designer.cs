@@ -1,0 +1,472 @@
+﻿namespace DentalClinic
+{
+    partial class User
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(User));
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            panel3 = new Panel();
+            label16 = new Label();
+            pictureBox13 = new PictureBox();
+            label15 = new Label();
+            pictureBox12 = new PictureBox();
+            label14 = new Label();
+            pictureBox11 = new PictureBox();
+            label13 = new Label();
+            pictureBox10 = new PictureBox();
+            label9 = new Label();
+            pictureBox7 = new PictureBox();
+            label10 = new Label();
+            pictureBox8 = new PictureBox();
+            label11 = new Label();
+            label12 = new Label();
+            pictureBox9 = new PictureBox();
+            label17 = new Label();
+            label18 = new Label();
+            panel4 = new Panel();
+            label2 = new Label();
+            label1 = new Label();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            button1 = new Button();
+            textBox3 = new TextBox();
+            guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
+            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2DataGridView2).BeginInit();
+            SuspendLayout();
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.LightSkyBlue;
+            panel3.Controls.Add(label16);
+            panel3.Controls.Add(pictureBox13);
+            panel3.Controls.Add(label15);
+            panel3.Controls.Add(pictureBox12);
+            panel3.Controls.Add(label14);
+            panel3.Controls.Add(pictureBox11);
+            panel3.Controls.Add(label13);
+            panel3.Controls.Add(pictureBox10);
+            panel3.Controls.Add(label9);
+            panel3.Controls.Add(pictureBox7);
+            panel3.Controls.Add(label10);
+            panel3.Controls.Add(pictureBox8);
+            panel3.Controls.Add(label11);
+            panel3.Controls.Add(label12);
+            panel3.Controls.Add(pictureBox9);
+            panel3.Dock = DockStyle.Left;
+            panel3.Location = new Point(0, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(244, 778);
+            panel3.TabIndex = 12;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Times New Roman", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label16.Location = new Point(95, 680);
+            label16.Name = "label16";
+            label16.Size = new Size(80, 26);
+            label16.TabIndex = 14;
+            label16.Text = "Logout";
+            // 
+            // pictureBox13
+            // 
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(3, 660);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(73, 71);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 15;
+            pictureBox13.TabStop = false;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Times New Roman", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label15.Location = new Point(92, 571);
+            label15.Name = "label15";
+            label15.Size = new Size(118, 26);
+            label15.TabIndex = 12;
+            label15.Text = "Dashboard";
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(0, 551);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(73, 71);
+            pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox12.TabIndex = 13;
+            pictureBox12.TabStop = false;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Times New Roman", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label14.Location = new Point(92, 474);
+            label14.Name = "label14";
+            label14.Size = new Size(66, 26);
+            label14.TabIndex = 11;
+            label14.Text = "Users";
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
+            pictureBox11.Location = new Point(0, 449);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(73, 71);
+            pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox11.TabIndex = 10;
+            pictureBox11.TabStop = false;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Times New Roman", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label13.Location = new Point(92, 357);
+            label13.Name = "label13";
+            label13.Size = new Size(120, 26);
+            label13.TabIndex = 8;
+            label13.Text = "Appoitment";
+            // 
+            // pictureBox10
+            // 
+            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
+            pictureBox10.Location = new Point(0, 337);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(73, 71);
+            pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox10.TabIndex = 9;
+            pictureBox10.TabStop = false;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Times New Roman", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label9.Location = new Point(79, 236);
+            label9.Name = "label9";
+            label9.Size = new Size(120, 26);
+            label9.TabIndex = 6;
+            label9.Text = "Appoitment";
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
+            pictureBox7.Location = new Point(0, 191);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(103, 119);
+            pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox7.TabIndex = 7;
+            pictureBox7.TabStop = false;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Times New Roman", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label10.Location = new Point(79, 115);
+            label10.Name = "label10";
+            label10.Size = new Size(120, 26);
+            label10.TabIndex = 4;
+            label10.Text = "Appoitment";
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(0, 96);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(73, 65);
+            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox8.TabIndex = 5;
+            pictureBox8.TabStop = false;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Times New Roman", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label11.ForeColor = SystemColors.ActiveCaptionText;
+            label11.Location = new Point(55, 49);
+            label11.Name = "label11";
+            label11.Size = new Size(66, 26);
+            label11.TabIndex = 4;
+            label11.Text = "Users";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Times New Roman", 16.2F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label12.ForeColor = SystemColors.ActiveCaptionText;
+            label12.Location = new Point(55, 9);
+            label12.Name = "label12";
+            label12.Size = new Size(167, 33);
+            label12.TabIndex = 3;
+            label12.Text = "Dental Clinic";
+            // 
+            // pictureBox9
+            // 
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(0, 3);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(49, 43);
+            pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox9.TabIndex = 2;
+            pictureBox9.TabStop = false;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.BackColor = SystemColors.ButtonHighlight;
+            label17.Font = new Font("Times New Roman", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label17.ForeColor = Color.LightSkyBlue;
+            label17.Location = new Point(263, 6);
+            label17.Name = "label17";
+            label17.Size = new Size(82, 34);
+            label17.TabIndex = 20;
+            label17.Text = "Users";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.BackColor = SystemColors.ButtonHighlight;
+            label18.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label18.ForeColor = Color.Black;
+            label18.Location = new Point(14, 20);
+            label18.Name = "label18";
+            label18.Size = new Size(79, 33);
+            label18.TabIndex = 18;
+            label18.Text = "Name";
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(textBox3);
+            panel4.Controls.Add(label2);
+            panel4.Controls.Add(label1);
+            panel4.Controls.Add(textBox2);
+            panel4.Controls.Add(textBox1);
+            panel4.Controls.Add(button1);
+            panel4.Controls.Add(label18);
+            panel4.Location = new Point(263, 62);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(1070, 216);
+            panel4.TabIndex = 21;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = SystemColors.ButtonHighlight;
+            label2.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(14, 95);
+            label2.Name = "label2";
+            label2.Size = new Size(85, 33);
+            label2.TabIndex = 29;
+            label2.Text = "Phone";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = SystemColors.ButtonHighlight;
+            label1.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(529, 22);
+            label1.Name = "label1";
+            label1.Size = new Size(121, 33);
+            label1.TabIndex = 28;
+            label1.Text = "Password";
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = SystemColors.Window;
+            textBox2.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox2.Location = new Point(690, 21);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(180, 34);
+            textBox2.TabIndex = 27;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = SystemColors.Window;
+            textBox1.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(138, 19);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(180, 34);
+            textBox1.TabIndex = 26;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.LightSkyBlue;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Times New Roman", 16.2F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(690, 158);
+            button1.Name = "button1";
+            button1.Size = new Size(193, 42);
+            button1.TabIndex = 18;
+            button1.Text = "Save";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = SystemColors.Window;
+            textBox3.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox3.Location = new Point(138, 96);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(180, 34);
+            textBox3.TabIndex = 27;
+            // 
+            // guna2DataGridView2
+            // 
+            dataGridViewCellStyle4.BackColor = Color.White;
+            guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            guna2DataGridView2.ColumnHeadersHeight = 4;
+            guna2DataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.White;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle6;
+            guna2DataGridView2.GridColor = Color.FromArgb(231, 229, 255);
+            guna2DataGridView2.Location = new Point(261, 354);
+            guna2DataGridView2.Name = "guna2DataGridView2";
+            guna2DataGridView2.RowHeadersVisible = false;
+            guna2DataGridView2.RowHeadersWidth = 51;
+            guna2DataGridView2.Size = new Size(1070, 389);
+            guna2DataGridView2.TabIndex = 26;
+            guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            guna2DataGridView2.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 4;
+            guna2DataGridView2.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            guna2DataGridView2.ThemeStyle.RowsStyle.Height = 29;
+            // 
+            // guna2TextBox1
+            // 
+            guna2TextBox1.CustomizableEdges = customizableEdges3;
+            guna2TextBox1.DefaultText = "Filter By Names";
+            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2TextBox1.ForeColor = Color.Black;
+            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox1.Location = new Point(512, 296);
+            guna2TextBox1.Margin = new Padding(5, 6, 5, 6);
+            guna2TextBox1.Name = "guna2TextBox1";
+            guna2TextBox1.PlaceholderText = "";
+            guna2TextBox1.SelectedText = "";
+            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2TextBox1.Size = new Size(424, 39);
+            guna2TextBox1.TabIndex = 25;
+            guna2TextBox1.TextAlign = HorizontalAlignment.Center;
+            // 
+            // User
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(1502, 778);
+            Controls.Add(guna2DataGridView2);
+            Controls.Add(guna2TextBox1);
+            Controls.Add(label17);
+            Controls.Add(panel4);
+            Controls.Add(panel3);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "User";
+            Text = "User";
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2DataGridView2).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Panel panel3;
+        private Label label16;
+        private PictureBox pictureBox13;
+        private Label label15;
+        private PictureBox pictureBox12;
+        private Label label14;
+        private PictureBox pictureBox11;
+        private Label label13;
+        private PictureBox pictureBox10;
+        private Label label9;
+        private PictureBox pictureBox7;
+        private Label label10;
+        private PictureBox pictureBox8;
+        private Label label11;
+        private Label label12;
+        private PictureBox pictureBox9;
+        private Label label17;
+        private Label label18;
+        private Panel panel4;
+        private Label label2;
+        private Label label1;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private Button button1;
+        private TextBox textBox3;
+        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+    }
+}
